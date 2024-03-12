@@ -3,8 +3,7 @@ import Chat from './components/chat'
 import { cookies } from 'next/headers'
 
 export default async function AssistantPage () {
-  const apiKey = 'YOUR_OPENAI_API_KEY';
-  const openai = new OpenAI(apiKey);
+  const openai = new OpenAI({apiKey: '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'});
 
   const threadId = cookies().get('threads')?.value
 
