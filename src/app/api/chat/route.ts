@@ -7,7 +7,7 @@ export const runtime = 'edge'
 
 export async function GET (req: NextRequest) {
   // const { content } = await req.json()
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const threadId = cookies().get('threads')?.value
 

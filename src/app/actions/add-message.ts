@@ -5,7 +5,7 @@ import { cookies } from 'next/headers'
 import { type ThreadMessage } from 'openai/resources/beta/threads/messages/messages.mjs'
 
 export default async function addMessage ({ content }: { content: string }): Promise<{ message: ThreadMessage | null, error: string | null }> {
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const cookieStore = cookies()
   const hasCookie = cookieStore.has('threads')

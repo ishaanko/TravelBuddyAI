@@ -12,7 +12,7 @@ export async function POST (req: NextRequest) {
     return NextResponse.json({ error: 'No file found, please try again later' })
   }
 
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const cookieStore = cookies()
   const hasCookie = cookieStore.has('threads')

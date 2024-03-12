@@ -5,7 +5,7 @@ import { cookies } from 'next/headers'
 import { type RunAction } from '../lib/types'
 
 export default async function getRun ({ runId }: { runId: string }): Promise<RunAction> {
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const threadId = cookies().get('threads')?.value
 

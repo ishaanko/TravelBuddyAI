@@ -4,7 +4,7 @@ import OpenAI from 'openai'
 import { cookies } from 'next/headers'
 
 export default async function submitToolOutputs ({ runId, toolCalls }: { runId: string, toolCalls: any }) {
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const threadId = cookies().get('threads')?.value
 

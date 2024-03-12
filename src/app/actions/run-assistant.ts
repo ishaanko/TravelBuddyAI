@@ -7,7 +7,7 @@ import { type RunAction } from '../lib/types'
 const assistantID = 'asst_4Gvk7WJuvcSqPuzUciiGSw8j'
 
 export default async function runAssistant (): Promise<RunAction> {
-  const openai = new OpenAI()
+  const openai = new OpenAI({apiKey: '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'})
 
   const threadId = cookies().get('threads')?.value
 
