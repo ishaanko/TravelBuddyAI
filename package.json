@@ -1,16 +1,9 @@
 {
-  "name": "wanderlust-assistants",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "author": {
-    "name": "Felipe Ossandon",
-    "email": "fe.ossandon.u@gmail.com"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "1.0.4",
