@@ -13,7 +13,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
       <Head>
-        <title>Something</title>
+        <title>Wanderlust</title>
       </Head>
       <body style={{ margin: 0, padding: 0 }}>
         <ThemeRegistry options={{ key: "mui" }}>

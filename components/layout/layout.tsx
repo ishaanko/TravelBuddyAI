@@ -9,7 +9,7 @@ type Props = {
 const Layout = ({ children }: Props) => (
   <>
     <Head>
-      <title>Wanderlust</title>
+      <title>TravelBuddyAI</title>
     </Head>
     <Box display="flex" flexDirection="column" minHeight="100vh">
       <NavBar />

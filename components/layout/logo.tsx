@@ -27,7 +27,7 @@ export default function Logo({ sx }: Props) {
             },
           }}
         >
-          Wanderlust
+          TravelBuddyAI
         </Typography>
       </Box>
     </Box>
