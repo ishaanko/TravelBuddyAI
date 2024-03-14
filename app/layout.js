@@ -10,11 +10,8 @@ import "@maptiler/sdk/dist/maptiler-sdk.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Wander',
-  description: 'Wandering about your next destination? Start exploring and plan at the same time.',
-  icons: {
-    icon: '/logo.svg'
-  }
+  title: 'TravelBuddyAI',
+  description: 'Traveling somewhere for vacation? Well we have got you cleared.',
 }
 
 export default function RootLayout({ children }) {

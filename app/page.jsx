@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main>
       <header className='h-[50px] flex justify-center items-center gap-2'>
-        <FontAwesomeIcon icon={faCompass} className='text-lg' />
-        <h1 className='text-lg'>Wander</h1>
+        <FontAwesomeIcon icon="fa-solid fa-plane" />
+        <h1 className='text-lg'>TravelBuddyAI</h1>
       </header>
       <div className='flex h-[calc(100vh-50px)]'>
         <div className='relative flex-shrink-0 w-1/2 px-6 pb-6'>
