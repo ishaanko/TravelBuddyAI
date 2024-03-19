@@ -162,9 +162,9 @@ export async function createOrFindAssistant() {
         }
       ],
       model: "gpt-3.5-turbo-16k-0613",
-      description: "Made with Wander",
+      description: "Made with TravelBuddyAI",
       metadata: {
-        created_by: "wander"
+        created_by: "TravelBuddyAI"
       }
     })
   } catch {
